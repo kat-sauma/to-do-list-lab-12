@@ -84,12 +84,6 @@ describe('app routes', () => {
 
     test('update a todo item', async () => {
 
-      const thisTodo = {
-        'todo': 'scold my parent',
-        'completed': false,
-        'importance': 'low',
-        'id': 8
-      };
       const newTodo = {
         'todo': 'scold my parent',
         'completed': false,
